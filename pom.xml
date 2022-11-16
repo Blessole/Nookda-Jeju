@@ -4,8 +4,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ch</groupId>
-	<artifactId>nookda</artifactId>
-	<name>NOOKDA</name>
+	<artifactId>nookdajeju</artifactId>
+	<name>Nookda-Jeju</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties> 
@@ -70,11 +70,14 @@
 		</dependency>
 
 		<!-- lombok -->
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.12</version>
+			<version>1.18.24</version>
+			<scope>provided</scope>
 		</dependency>
+
 		<!-- 스프링 -->
 		<dependency>
 			<groupId>org.springframework</groupId>
